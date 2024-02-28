@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather | App</title>
+    <!-- Render all elements -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css file for the template -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <!-- Start Search  -->
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Please Enter City Name "
+          spellcheck="false"
+        />
+        <button><img src="images/search.png" alt="" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <!-- End Search  -->
+      <!-- Start Weather  -->
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icon" />
+        <h1 class="temperature">22°C</h1>
+        <h2 class="city">Cairo</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">45 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Weather  -->
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
