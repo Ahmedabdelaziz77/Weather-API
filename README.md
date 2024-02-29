@@ -11,4 +11,4 @@ This is a simple weather app that retrieves weather information using an API and
 
 ## Demo
 
-You can see a live demo of the Weather App [link of the app]([https://example.com](https://ahmedabdelaziz77.github.io/Weather-API/)https://ahmedabdelaziz77.github.io/Weather-API/).
+You can see a live demo of the Weather App  [Website-link](https://ahmedabdelaziz77.github.io/Weather-API/).
