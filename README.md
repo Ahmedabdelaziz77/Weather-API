@@ -17,7 +17,7 @@ You can see a live demo of the Weather App  [Website-link](https://ahmedabdelazi
 ## Usage
 
 1. Enter the name of a city or location in the search input field.
-2. Press the Enter key or click the "Search" button.
+2. Press click the "Search" button.
 3. The app will retrieve the weather information from the API and display it on the page.
 
 ## API Key
